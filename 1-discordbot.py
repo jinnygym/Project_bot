@@ -30,7 +30,6 @@ async def on_ready():
 # "เมื่อมีคนเข้ามา"
 async def on_member_join(member):
     # "get channelเราจะเอาเลขห้องที่เราต้องการให้botตอบกลับไปเป็นembed หรือก็คือการบอก Welcome!! ของคำสั่งนี้นั้นเอง"
-    print('check')
     channel = bot.get_channel(int('905131943237156954'))
     embed = discord.Embed(
         title="Welcome!!", description=member, color=0x13f2f2)
@@ -41,7 +40,6 @@ async def on_member_join(member):
 
 @bot.event
 async def on_member_remove(member):
-    print('check')
     # "เมื่อมีคนออก(leave)" "ก็เเสดงembedออกมาเป็นการบอกว่าคนนี้ออกจากห้องเเล้วนะ!!!"
     channel = bot.get_channel(int('905131943237156954'))
     embed = discord.Embed(title="Good luck!!",
