@@ -1,14 +1,15 @@
 import discord
 from discord.ext import commands
 from Aplaylist import Botmusicallplaylist
+from googletrans import Translator
 
 
 Intents = discord.Intents
-
-# intents = Intents.all()
+translator = Translator()
+intents = Intents.all()
 # bot = discord.Client(intents=intents)  # intents=intents
 # intents=intents
-bot = commands.Bot(command_prefix='[', help_command=None)
+bot = commands.Bot(command_prefix='[', help_command=None, intents=intents)
 # , intents=intents
 # การใช้เรียกclass
 allsongmethod = Botmusicallplaylist()
@@ -29,6 +30,7 @@ async def on_ready():
 # "เมื่อมีคนเข้ามา"
 async def on_member_join(member):
     # "get channelเราจะเอาเลขห้องที่เราต้องการให้botตอบกลับไปเป็นembed หรือก็คือการบอก Welcome!! ของคำสั่งนี้นั้นเอง"
+    print('check')
     channel = bot.get_channel(int('905131943237156954'))
     embed = discord.Embed(
         title="Welcome!!", description=member, color=0x13f2f2)
@@ -39,6 +41,7 @@ async def on_member_join(member):
 
 @bot.event
 async def on_member_remove(member):
+    print('check')
     # "เมื่อมีคนออก(leave)" "ก็เเสดงembedออกมาเป็นการบอกว่าคนนี้ออกจากห้องเเล้วนะ!!!"
     channel = bot.get_channel(int('905131943237156954'))
     embed = discord.Embed(title="Good luck!!",
@@ -46,6 +49,51 @@ async def on_member_remove(member):
     embed.set_author(name=member, icon_url=member.avatar_url)
     embed.set_footer(icon_url=member.avatar_url, text=f"Requested by {member}")
     await channel.send(embed=embed)
+
+
+@bot.command()
+async def translate(ctx, lang, *, text):
+    # คำสั่งใช้แปลภาษา
+    translator = Translator()
+    display_translation = translator.translate(text, dest=lang).text
+    # text คือข้อความที่จะแปล dest คือภาษาที่จะให้แปลเป็นภาษานั้น
+    embed = discord.Embed(color=discord.Color.dark_theme())
+    embed.add_field(name=f"Language : {lang} ", value=f'{display_translation}')
+    await ctx.send(embed=embed)
+
+
+@bot.event
+async def on_raw_reaction_add(reaction):
+    # ฟังก์ชันเวลามีคนกดอีโมจิ
+    role_kmitl = discord.utils.get(reaction.member.guild.roles, name="ขี้เเมวIT")
+    role_friend = discord.utils.get(reaction.member.guild.roles, name="♂ MY FRIEND ♂")
+    # สองบรรทัดบนคือประกาศตัวแปร role โดยการใช้ชื่อ role ที่เราตั้ง
+    channel = bot.get_channel(int('910089641242279957'))
+    # ประกาศตัวแปรแชนแนลโดยใช้ id ของแชนแนล
+    if reaction.emoji.name == '💻' and reaction.message_id == 910090996103143424:
+        if str(reaction.member.roles).count(str('878269945773957170')) >= 1: # if นี้เอาไว้เช็คว่าคนที่กดอีโมตาม role มี role นั้นอยู่แล้วรึเปล่า
+            await channel.send(f'{reaction.member.mention} YOU ALREADY HAS THIS ROLE', delete_after=10)
+        else:
+            await reaction.member.add_roles(role_kmitl)
+            await channel.send(f'{reaction.member.mention} YOU HAS BEEN VERIFY', delete_after=10)
+    elif reaction.emoji.name == '⌨️' and reaction.message_id == 910090996103143424: 
+        if str(reaction.member.roles).count(str('878269945773957170')) >= 1: # if นี้เอาไว้เช็คว่าคนที่กดอีโมตาม role มี role นั้นอยู่แล้วรึเปล่า
+            await channel.send(f'{reaction.member.mention} YOU ALREADY HAS THIS ROLE', delete_after=10)
+        else:
+            await reaction.member.add_roles(role_kmitl)
+            await channel.send(f'{reaction.member.mention} YOU HAS BEEN VERIFY', delete_after=10)
+    elif reaction.emoji.name == '📱' and reaction.message_id == 910090996103143424:
+        if str(reaction.member.roles).count(str('878269945773957170')) >= 1: # if นี้เอาไว้เช็คว่าคนที่กดอีโมตาม role มี role นั้นอยู่แล้วรึเปล่า
+            await channel.send(f'{reaction.member.mention} YOU ALREADY HAS THIS ROLE', delete_after=10)
+        else:
+            await reaction.member.add_roles(role_kmitl)
+            await channel.send(f'{reaction.member.mention} YOU HAS BEEN VERIFY', delete_after=10)
+    elif reaction.emoji.name == '🌹' and reaction.message_id == 910090996103143424: 
+        if str(reaction.member.roles).count(str('315139421815046145')) >= 1: # if นี้เอาไว้เช็คว่าคนที่กดอีโมตาม role มี role นั้นอยู่แล้วรึเปล่า
+            await channel.send(f'{reaction.member.mention} YOU ALREADY HAS THIS ROLE', delete_after=10)
+        else:
+            await reaction.member.add_roles(role_friend)
+            await channel.send(f'{reaction.member.mention} YOU HAS BEEN VERIFY', delete_after=10)
 
 
 @bot.event
@@ -191,4 +239,4 @@ async def loop(ctx: commands.Context):
 #         await ctx.send(embed=embed)
 
 
-bot.run('ODk1NTU0ODMyNzI1ODU2MjY4.YV6Qbg.eLYJcwoFipIyM5OMtCuzwppZ8s0')
+bot.run('ODk1NTU0ODMyNzI1ODU2MjY4.YV6Qbg.4erKgjr5vLyF2BoUL-Ob9Kg8ZGU')
