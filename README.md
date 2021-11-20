@@ -1,4 +1,6 @@
 # Project_bot
+This project is part of subject Problem Solving in Information Technology (PSIT)<br>
+Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang (KMITL).<br><br>
 
 <h2 id='author'>Author :notebook_with_decorative_cover:</h2>
 
