@@ -1,0 +1,257 @@
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "ThermoDynamics", "star": 4, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Bowling", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Perfect City", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Majority", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Hint", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "IP Address", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Sort", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "T-Score", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Tax", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Coupon", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Milk v2", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "ISBN", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Digit v2", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "WPM", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Pro", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Hamming", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Mickey", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Discount", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "War", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Reachability", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Antenna", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "OTP", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Refrigerator", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Guess", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Kangaroo", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Difference", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "TicTacToe", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "BishopMove", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "BloodType", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "BloodDonation", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "HeadsAndLegs", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "NumDays", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "temperature", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Inverter", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "MasterMind", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Kayak", "star": 4, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Fever", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "ชีวะจักรโบราณ", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "SMS", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Maze Runner", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "PairNumbering", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "BiggestIsland", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Bowling-Reddit", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "GasStations", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "EuclideanDistance", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "MultiplyMatrixPQR", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "ScaledMatrix", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "HW_DotE", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Scout", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Semi Prime", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "is_prime_LARGER", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Phasmophobia", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Compound Interest", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Dart", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Ball", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "PongYa", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "PrasomSib", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Matrix_MN", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "CaesarV2", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Amicable", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Perfect", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "BreakPassword", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Island", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Ink", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Password", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "CircularPrime", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Gram_v1", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Rabbit", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "SceneSwitch I", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "RectangleArea", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "GCD_N", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "FibonacciRecursionV2", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "SqFree", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "GCD_v2", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "CoinChangev1", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "PedPonFire", "star": 4, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "isPrime_large", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "ClockHands", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "MissingCard I", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "LetterFrequency", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "BreachTheDoor", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Duplicate I", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Difference", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "BookWorm", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Point Sorting", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "LineSorting", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Median", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "PickThemAgain", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Backward", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Muddled Menu", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Sad life of tuple", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "3nPlus1", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Day2011", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "VerticalHistogram", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "AndAgainAndAgainAndAgainAndAgainAndAgainAndAgain", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Roman", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Divide3Or5", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "OneTwo", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Binary", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Flatten", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "FibonacciRecursionV1", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "CaesarV1", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "CoPrimeV1", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "GCD_v1", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "All_Primes", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "isprime_small", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "WordSequence II", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "WordSequence I", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Safe", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Seeker", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "CuteCat CuteFox", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Kabata", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "MAC", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "B - Fully pair?", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Century", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Squid Game 3 - Tug-of-War", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "iPhone 13 Again", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "ฉันจะเป็น Saitama ให้ได้เลย", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Cha Cha Cha", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Olympic", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Filter", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "HorizontalHistogram", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Classify", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Impostor", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Runner", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Diamond I", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "RemoveTag", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "BusStop I", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "AlmostMean", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "LastStand", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "PickThem", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "AscendingSort", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "MissingNumber", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Cat Parade", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Solar System", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Saint Seiya", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Pringles", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Stamps", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Recommend] Ping", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Recommend] Books", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Shorten", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] diamond", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] One For All", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] BigFrame", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Recommend] PhoneNumber", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] BTSMRT", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] SecondConverter", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] ProgressiveTax", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Harshad", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Lotto", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] RightArrow", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Turnstile", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Elo", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Recommend] Kaprekar", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Recommend] Diginity", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Stair", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Milk V.1", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] FourDirections", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "RuleofThree", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Restaurant", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Nearer", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] ValidVar", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Recommend] Run Length Decoding", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Recommend] Run Length Encoding", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Sequence N", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "FOR!F-Ball", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "RockPaperScissor", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Sequence XXX", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Parallelogram", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Align", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Recommend] Bill", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "ChristmasTree", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Recommend] Key", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Frame", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Left Arrow", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Blackjack", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Inflation", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Sequence XII", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Grade III", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Hamburger", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Future Message", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Sneeze", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Username", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Virus I", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Table I", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Fizzbuzz", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Sequence XI", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Sequence X", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Sequence IX", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Sequence VIII", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Sequence VII", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Sequence VI", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Donut", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] LargestNumber", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "BrickBridge", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Sequence V", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Sequence IV", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Sequence III", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Sequence II", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Sequence I", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "BootSequence", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "HowLong", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "SumOfNumber", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "GraderMachine", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "HideAndSeek", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Stepper II", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Stepper I", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Counter", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Runner", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Repeater", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Triangle I", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "SurprisingVote", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "PlanCDEFGHIJKLMNOPQRSTUVWXYZ", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "WeightStation", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Circular II", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Circular I", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Day I", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Seven", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "FoodGrade I", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "DataSpike", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Gift II", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "BMIAgain", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "PointInCircle", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Squareroot", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Robot I", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Grade II", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Quadrant", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "ODD_EVEN", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Timing II", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "PlanB", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Distinguish", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Grade I", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Midterm] Ratatype", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "EuclideanDistance2D", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "TheFunctionWithin", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "CompositeFunction", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "BMI", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Rectangle", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "F2C", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Jumping", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Train", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "MyMath", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Regulation", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Gift I", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Timing", "star": 1, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Boomerang", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "JumpAround", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "StillJumping", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "SaveComputeRepeat", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "FollowTheLead", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "MoreEntryway", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Entryway", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Pre] Blackjack", "star": 3, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Pre] Kayak", "star": 4, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Pre] LeftArrow", "star": 2, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Pre] Hamburger", "star": 0, "status": "Pass"}
+{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Pre] AB", "star": 0, "status": "Pass"}
