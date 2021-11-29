@@ -1,16 +1,17 @@
 import discord
 from discord.ext import commands
 from Aplaylist import Botmusicallplaylist
+import json
+from Ejudge import ejudgeclass
 from googletrans import Translator
 
+translator = Translator()
 
 Intents = discord.Intents
-translator = Translator()
 intents = Intents.all()
 # bot = discord.Client(intents=intents)  # intents=intents
 # intents=intents
-bot = commands.Bot(command_prefix='[', help_command=None, intents=intents)
-# , intents=intents
+bot = commands.Bot(command_prefix='[', intents=intents, help_command=None)
 # การใช้เรียกclass
 allsongmethod = Botmusicallplaylist()
 
@@ -49,51 +50,6 @@ async def on_member_remove(member):
     await channel.send(embed=embed)
 
 
-@bot.command()
-async def translate(ctx, lang, *, text):
-    # คำสั่งใช้แปลภาษา
-    translator = Translator()
-    display_translation = translator.translate(text, dest=lang).text
-    # text คือข้อความที่จะแปล dest คือภาษาที่จะให้แปลเป็นภาษานั้น
-    embed = discord.Embed(color=discord.Color.dark_theme())
-    embed.add_field(name=f"Language : {lang} ", value=f'{display_translation}')
-    await ctx.send(embed=embed)
-
-
-@bot.event
-async def on_raw_reaction_add(reaction):
-    # ฟังก์ชันเวลามีคนกดอีโมจิ
-    role_kmitl = discord.utils.get(reaction.member.guild.roles, name="ขี้เเมวIT")
-    role_friend = discord.utils.get(reaction.member.guild.roles, name="♂ MY FRIEND ♂")
-    # สองบรรทัดบนคือประกาศตัวแปร role โดยการใช้ชื่อ role ที่เราตั้ง
-    channel = bot.get_channel(int('910089641242279957'))
-    # ประกาศตัวแปรแชนแนลโดยใช้ id ของแชนแนล
-    if reaction.emoji.name == '💻' and reaction.message_id == 910090996103143424:
-        if str(reaction.member.roles).count(str('878269945773957170')) >= 1: # if นี้เอาไว้เช็คว่าคนที่กดอีโมตาม role มี role นั้นอยู่แล้วรึเปล่า
-            await channel.send(f'{reaction.member.mention} YOU ALREADY HAS THIS ROLE', delete_after=10)
-        else:
-            await reaction.member.add_roles(role_kmitl)
-            await channel.send(f'{reaction.member.mention} YOU HAS BEEN VERIFY', delete_after=10)
-    elif reaction.emoji.name == '⌨️' and reaction.message_id == 910090996103143424: 
-        if str(reaction.member.roles).count(str('878269945773957170')) >= 1: # if นี้เอาไว้เช็คว่าคนที่กดอีโมตาม role มี role นั้นอยู่แล้วรึเปล่า
-            await channel.send(f'{reaction.member.mention} YOU ALREADY HAS THIS ROLE', delete_after=10)
-        else:
-            await reaction.member.add_roles(role_kmitl)
-            await channel.send(f'{reaction.member.mention} YOU HAS BEEN VERIFY', delete_after=10)
-    elif reaction.emoji.name == '📱' and reaction.message_id == 910090996103143424:
-        if str(reaction.member.roles).count(str('878269945773957170')) >= 1: # if นี้เอาไว้เช็คว่าคนที่กดอีโมตาม role มี role นั้นอยู่แล้วรึเปล่า
-            await channel.send(f'{reaction.member.mention} YOU ALREADY HAS THIS ROLE', delete_after=10)
-        else:
-            await reaction.member.add_roles(role_kmitl)
-            await channel.send(f'{reaction.member.mention} YOU HAS BEEN VERIFY', delete_after=10)
-    elif reaction.emoji.name == '🌹' and reaction.message_id == 910090996103143424: 
-        if str(reaction.member.roles).count(str('315139421815046145')) >= 1: # if นี้เอาไว้เช็คว่าคนที่กดอีโมตาม role มี role นั้นอยู่แล้วรึเปล่า
-            await channel.send(f'{reaction.member.mention} YOU ALREADY HAS THIS ROLE', delete_after=10)
-        else:
-            await reaction.member.add_roles(role_friend)
-            await channel.send(f'{reaction.member.mention} YOU HAS BEEN VERIFY', delete_after=10)
-
-
 @bot.event
 # "ถ้ามีข้อความที่เราตั้งขึ้นมาออย่างตัวอย่างข้างล่างก็คือ [user, [logout เเล้วมันจะออกค่าตามที่เราจะawaitออกไป >w<"
 async def on_message(message):
@@ -121,6 +77,7 @@ async def help(EMBED):
     # 'inline = False' 'คือการที่เราอยากเว้นวรรคไปอีกบันทัด
     # '\n> คือการที่ให้มห้มันอยู่ในหัวข้อย่อไปอีกเหมือนการเว้นบรรทัดเเล้วจะมีembedเพิ่มขึ้นมา https://media.discordapp.net/attachments/907845009921933312/907873160597217310/unknown.png'
     embed.add_field(name="help", value="Get help command.", inline=False)
+    embed.add_field(name="Ejudge", value="\n> [findejudge", inline=False)
     embed.add_field(name="Play the Music",
                     value="\n> [play \n> [p", inline=True)
     embed.add_field(name="Stop the Music", value=" \n> [stop", inline=True)
@@ -225,16 +182,109 @@ async def loop(ctx: commands.Context):
     await allsongmethod.loop(ctx)
 
 
-# @bot.command()
-# async def translate(ctx, lang, *, text):
-#     list_lang = lang.split(',')
-#     translator = Translator()
-#     for item in list_lang:
-#         display_translation = translator.translate(text, dest=item).text
-#         embed = discord.Embed(color=discord.Color.dark_theme())
-#         embed.add_field(
-#             name=f"Language : {item} ", value=f'{display_translation}')
-#         await ctx.send(embed=embed)
+@bot.command()
+async def translate(ctx, lang, *, text):
+    list_lang = lang.split(',')
+    translator = Translator()
+    for item in list_lang:
+        display_translation = translator.translate(text, dest=item).text
+        embed = discord.Embed(color=0x263EB5)
+        embed.add_field(
+            name=f"Language : {item} ", value=f'{display_translation}')
+        await ctx.send(embed=embed)
 
 
-bot.run('ODk1NTU0ODMyNzI1ODU2MjY4.YV6Qbg.4erKgjr5vLyF2BoUL-Ob9Kg8ZGU')
+@bot.command()
+async def findejudge(ctx: commands.Context, search: str):
+    ejudgeclass.entercourse()
+    datauser = ejudgeclass.findejudge(search)
+    await ctx.channel.send('```Status => Searching for a name```')
+    if datauser['status'] == 'success':
+        embed = discord.Embed(title=ctx.author,
+                              description="\
+Name :  %s\n\
+Studentid :  %s\n\
+Total-Score :  %s\n" % (datauser['data']['name'], datauser['data']['studentid'], datauser['data']['total_score']), color=0xDE5F83)
+        embed.set_thumbnail(
+            url="https://media.discordapp.net/attachments/292678280824356864/896342974789742612/image0.jpg?width=415&height=415")
+        embed.set_footer(text="Searching information in Ejudge")
+        await ctx.channel.send(embed=embed)
+        datauser = ejudgeclass.golink(datauser['data']['profile'], 27)
+        lixwin = []
+        search = open("problem.txt", "r", encoding="utf8")
+        for line in search.readlines():
+            lixwin.append(json.loads(line.strip()))
+        lixfewww = []
+        for i in lixwin:
+            if i['course'] == "Problem Solving in Information Technology 2021 (IT)":
+                checkturefalse = False
+                for j in datauser:
+                    if j["problem"] == i['problem']:
+                        checkturefalse = True
+                        break
+                if checkturefalse == False:
+                    lixfewww.append(i)
+        lix = []
+        if len(lixfewww) == 0:
+            lix.append("You already done the course.!")
+        else:
+            lix.append("You have: " +
+                       str(len(lixfewww)) + " left.")
+        for i in lixfewww:
+            lix.append(
+                str(i["problem"] + "  |  " + str(i["star"]) + " star(s)"))
+
+        embed = discord.Embed(title="Ejudge Search", description='\n'.join(
+            str(e) for e in lix), color=0x13f2f2)
+        embed.set_footer(icon_url=ctx.author.avatar_url,
+                         text=f"Requested by {ctx.author}")
+        await ctx.channel.send(embed=embed)
+    else:
+        embed = discord.Embed(
+            title=ctx.author, description="Not found your name in Ejudge.", color=0xC2B997)
+        await ctx.channel.send(embed=embed)
+
+
+@bot.event
+async def on_raw_reaction_add(reaction):
+    # ฟังก์ชันเวลามีคนกดอีโมจิ
+    role_kmitl = discord.utils.get(
+        reaction.member.guild.roles, name="ขี้เเมวIT")
+    role_friend = discord.utils.get(
+        reaction.member.guild.roles, name="♂ MY FRIEND ♂")
+    # สองบรรทัดบนคือประกาศตัวแปร role โดยการใช้ชื่อ role ที่เราตั้ง
+    channel = bot.get_channel(int('910089641242279957'))
+    # ประกาศตัวแปรแชนแนลโดยใช้ id ของแชนแนล
+    if reaction.emoji.name == '💻' and reaction.message_id == 910090996103143424:
+        # if นี้เอาไว้เช็คว่าคนที่กดอีโมตาม role มี role นั้นอยู่แล้วรึเปล่า
+        if str(reaction.member.roles).count(str('878269945773957170')) >= 1:
+            await channel.send(f'{reaction.member.mention} YOU ALREADY HAS THIS ROLE', delete_after=30)
+        else:
+            await reaction.member.add_roles(role_kmitl)
+            await channel.send(f'{reaction.member.mention} YOU HAS BEEN VERIFY', delete_after=30)
+    elif reaction.emoji.name == '⌨️' and reaction.message_id == 910090996103143424:
+        # if นี้เอาไว้เช็คว่าคนที่กดอีโมตาม role มี role นั้นอยู่แล้วรึเปล่า
+        if str(reaction.member.roles).count(str('878269945773957170')) >= 1:
+            await channel.send(f'{reaction.member.mention} YOU ALREADY HAS THIS ROLE', delete_after=30)
+        else:
+            await reaction.member.add_roles(role_kmitl)
+            await channel.send(f'{reaction.member.mention} YOU HAS BEEN VERIFY', delete_after=30)
+    elif reaction.emoji.name == '📱' and reaction.message_id == 910090996103143424:
+        # if นี้เอาไว้เช็คว่าคนที่กดอีโมตาม role มี role นั้นอยู่แล้วรึเปล่า
+        if str(reaction.member.roles).count(str('878269945773957170')) >= 1:
+            await channel.send(f'{reaction.member.mention} YOU ALREADY HAS THIS ROLE', delete_after=30)
+        else:
+            await reaction.member.add_roles(role_kmitl)
+            await channel.send(f'{reaction.member.mention} YOU HAS BEEN VERIFY', delete_after=30)
+    elif reaction.emoji.name == '🌹' and reaction.message_id == 910090996103143424:
+        # if นี้เอาไว้เช็คว่าคนที่กดอีโมตาม role มี role นั้นอยู่แล้วรึเปล่า
+        if str(reaction.member.roles).count(str('315139421815046145')) >= 1:
+            await channel.send(f'{reaction.member.mention} YOU ALREADY HAS THIS ROLE', delete_after=30)
+        else:
+            await reaction.member.add_roles(role_friend)
+            await channel.send(f'{reaction.member.mention} YOU HAS BEEN VERIFY', delete_after=30)
+
+with open("token.0", 'r', encoding='utf-8') as winwin:
+    bottoken = winwin.read()
+# utf-8 คือการเข้ารหัสอักขระความกว้างผันแปรที่ใช้สำหรับการสื่อสารทางอิเล็กทรอนิกส์
+bot.run(bottoken)

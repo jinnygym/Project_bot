@@ -259,8 +259,3 @@
 {"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "FollowTheLead", "star": 0, "status": "Pass"}
 {"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "MoreEntryway", "star": 0, "status": "Pass"}
 {"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "Entryway", "star": 0, "status": "Pass"}
-{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Pre] Blackjack", "star": 3, "status": "Pass"}
-{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Pre] Kayak", "star": 4, "status": "Pass"}
-{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Pre] LeftArrow", "star": 2, "status": "Pass"}
-{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Pre] Hamburger", "star": 0, "status": "Pass"}
-{"course": "Problem Solving in Information Technology 2021 (IT)", "problem": "[Pre] AB", "star": 0, "status": "Pass"}

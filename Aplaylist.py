@@ -4,7 +4,7 @@ import youtube_dl
 import asyncio
 import itertools
 # from googletrans import Translator
-
+# translator = Translator()
 from AMusicPlayer import MusicPlayer
 from AYTDLSource import YTDLSource
 # translator = Translator()

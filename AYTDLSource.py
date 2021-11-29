@@ -21,15 +21,17 @@ ytdl_format_options = {
     'default_search': 'auto',
     'source_address': '0.0.0.0'
 }
-# การดึงเสียงดึงvideo เเละก็ยังเป็นค่า default
+# การดึงเสียงดึงvideo เเละก็ยังเป็นค่า default การดัดเเปลงเสียงต่างๆ
 ffmpeg_options = {
     'options': '-vn',
     "before_options": "-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5"
 }
-
+# Discord เตรียมนำบอทเพลงมาใช้งานโดยจะเชื่อมต่อกับ YouTube โดยตรง
 ytdl = youtube_dl.YoutubeDL(ytdl_format_options)
 
 # classที่ให้ Aplaylistได้เอาไปใช้งาน
+
+
 class YTDLSource(discord.PCMVolumeTransformer):
     # ใช้ในการประการclass __init__เป็น constructor(ตัวสร้าง) หรือก็คือ การใช้oopของpython เอาไว้ประกาศตัวใช้classให้ใช้ง่ายๆ
     # https://stackpython.medium.com/python-oop-ep-1-oop-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-f85ba48591f3
@@ -66,7 +68,6 @@ class YTDLSource(discord.PCMVolumeTransformer):
         # "ใช้ในการเตรียมstreamเเทนการdowloading ถ้าlinkของyoutubeมันหมดเวลาเเชร์หรือลิงค์หมดอายุ"
         loop = loop or asyncio.get_event_loop()
         requester = data['requester']
-
         to_run = partial(ytdl.extract_info,
                          url=data['webpage_url'], download=False)
         data = await loop.run_in_executor(None, to_run)

@@ -4,6 +4,8 @@ from async_timeout import timeout
 from AYTDLSource import YTDLSource
 
 # เป็นclassให้ Aplaylist ให้สามารถใช้งานได้ง่ายขึ้น
+
+
 class MusicPlayer:
 
     __slots__ = ('bot', '_guild', '_channel', '_cog',
@@ -32,7 +34,7 @@ class MusicPlayer:
             self.next.clear()
             # เมื่อbotไม่ได้error ให้บอทออกจากห้องdiscord หลังจากbotไม่ได้ทำอะไรเลยเป็นเวลา4นาที
             try:
-                async with timeout(240):  # 4 นาที
+                async with timeout(180):  # 4 นาที
                     source = await self.queue.get()
             except asyncio.TimeoutError:
                 return await self.destroy(self._guild)
@@ -44,7 +46,6 @@ class MusicPlayer:
                     await self._channel.send(f'There was an error processing your song.\n'
                                              f'```css\n[{winza007}]\n```')
                     continue
-
             source.volume = self.volume
             self.current = source
 
