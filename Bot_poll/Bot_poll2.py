@@ -53,4 +53,4 @@ async def on_raw_reaction_remove(payload):
         pass
 
 
-bot.run("OTA3NTc0NTI5Mjg1NTc4NzYz.YYpKpQ.0cxOTTGNerq29VkZd_COF07QHwg")
+bot.run("DISCORD_TOKEN")
